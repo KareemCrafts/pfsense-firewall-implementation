@@ -22,7 +22,8 @@
 
 ### ✅ Step 1 — pfSense Console: Initial Boot
 
-![Step 1](screenshots/01-pfsense-console-boot.png)
+<img width="763" height="448" alt="01-pfsense-console-boot" src="https://github.com/user-attachments/assets/07ce8099-3486-4ae1-b92b-3ae52e2b77d0" />
+
 
 After booting the pfSense VM, the console menu appears confirming the system is live.
 
@@ -37,7 +38,9 @@ After booting the pfSense VM, the console menu appears confirming the system is 
 
 ### ✅ Step 2 — Web Interface Login
 
-![Step 2](screenshots/02-web-login-page.png)
+<img width="1244" height="912" alt="02-web-login-page" src="https://github.com/user-attachments/assets/09db9e05-2647-4bdc-8259-1a582d2f1d85" />
+
+
 
 Accessed the pfSense web GUI by navigating to `https://192.168.1.7` in a browser.
 
@@ -52,7 +55,8 @@ Accessed the pfSense web GUI by navigating to `https://192.168.1.7` in a browser
 
 ### ✅ Step 3 — Installation Wizard
 
-![Step 3](screenshots/03-installation-wizard.png)
+<img width="788" height="515" alt="03-installation-wizard" src="https://github.com/user-attachments/assets/056aafa9-4423-4696-b252-277ab37c82a4" />
+
 
 Selected **Install** from the wizard to permanently install pfSense onto the VM's virtual hard drive.
 
@@ -62,7 +66,8 @@ Selected **Install** from the wizard to permanently install pfSense onto the VM'
 
 ### ✅ Step 4 — General System Configuration
 
-![Step 4](screenshots/04-general-info-config.png)
+<img width="1168" height="1211" alt="04-general-info-config" src="https://github.com/user-attachments/assets/5be59345-fa59-409c-982b-28a35d8f3ab8" />
+
 
 Configured core system identity settings in Setup Wizard Step 2 of 9.
 
@@ -80,7 +85,8 @@ Configured core system identity settings in Setup Wizard Step 2 of 9.
 
 ### ✅ Step 5 — WAN Interface Configuration
 
-![Step 5](screenshots/05-wan-interface-config.png)
+<img width="1206" height="1233" alt="05-wan-interface-config" src="https://github.com/user-attachments/assets/6ae88da4-dc18-43aa-87ab-7bf0eca4e7cd" />
+
 
 Configured the WAN interface — pfSense's connection to the internet through the home router.
 
@@ -97,7 +103,8 @@ Configured the WAN interface — pfSense's connection to the internet through th
 
 ### ✅ Step 6 — pfSense Dashboard
 
-![Step 6](screenshots/06-dashboard.png)
+<img width="1239" height="1475" alt="06-dashboard" src="https://github.com/user-attachments/assets/5512f8f9-6afa-4c10-86a4-824a922a6921" />
+
 
 The main dashboard loaded after setup — confirming everything is configured and running.
 
@@ -112,7 +119,8 @@ The main dashboard loaded after setup — confirming everything is configured an
 
 ### ✅ Step 7 — System Resource Metrics
 
-![Step 7](screenshots/07-system-metrics.png)
+<img width="1212" height="1443" alt="07-system-metrics" src="https://github.com/user-attachments/assets/97a67e42-4423-4966-bf3d-ee9d2abee995" />
+
 
 Reviewed the lower dashboard panel showing live system performance.
 
@@ -129,7 +137,8 @@ Reviewed the lower dashboard panel showing live system performance.
 
 ### ✅ Step 8 — Firewall Menu Navigation
 
-![Step 8](screenshots/08-firewall-menu.png)
+<img width="1235" height="700" alt="08-firewall-menu" src="https://github.com/user-attachments/assets/5f5eaa85-77d3-47ec-af20-014d9b365fb2" />
+
 
 Opened the **Firewall** dropdown to explore available configuration options.
 
@@ -145,7 +154,8 @@ Opened the **Firewall** dropdown to explore available configuration options.
 
 ### ✅ Step 9 — Creating a Firewall Alias
 
-![Step 9](screenshots/09-alias-config.png)
+<img width="1249" height="906" alt="09-alias-config" src="https://github.com/user-attachments/assets/3e0d333d-81f5-404d-bf6d-0cec97c8d457" />
+
 
 Created an alias called `RedHuntDOTNet` to represent a website by a friendly name instead of a raw IP.
 
@@ -161,7 +171,8 @@ Created an alias called `RedHuntDOTNet` to represent a website by a friendly nam
 
 ### ✅ Step 10 — Allow-All Rule Configuration
 
-![Step 10](screenshots/10-allow-all-rule.png)
+<img width="1211" height="1115" alt="10-allow-all-rule" src="https://github.com/user-attachments/assets/db2749bf-e025-40c5-8984-a48c3c6cd3f6" />
+
 
 Created a Pass rule that allows all traffic not caught by rules above it.
 
@@ -179,7 +190,8 @@ Created a Pass rule that allows all traffic not caught by rules above it.
 
 ### ✅ Step 11 — Final Firewall Rules Configuration
 
-![Step 11](screenshots/11-final-rules.png)
+<img width="1187" height="747" alt="11-final-rules" src="https://github.com/user-attachments/assets/ab9677af-16ea-4bda-8db9-7bc09760dd40" />
+
 
 The completed rule set on the WAN interface in correct order.
 
@@ -196,7 +208,8 @@ The completed rule set on the WAN interface in correct order.
 
 ### ✅ Step 12 — Block Facebook Rule Details
 
-![Step 12](screenshots/12-block-facebook-rule.png)
+<img width="1190" height="1145" alt="12-block-facebook-rule" src="https://github.com/user-attachments/assets/35786b84-c96c-4952-b747-2caee3ad91f8" />
+
 
 Full configuration of the custom rule that silently drops all traffic to Facebook's IP.
 
@@ -215,7 +228,8 @@ Full configuration of the custom rule that silently drops all traffic to Faceboo
 
 ### ✅ Step 13 — Gateway Configuration
 
-![Step 13](screenshots/13-gateway-config.png)
+<img width="1218" height="908" alt="13-gateway-config" src="https://github.com/user-attachments/assets/a7b5cd59-cee5-47dd-aaac-1789c0f511f0" />
+
 
 Verified the gateway settings that control how pfSense routes traffic to the internet.
 
@@ -229,7 +243,8 @@ Verified the gateway settings that control how pfSense routes traffic to the int
 
 ### ✅ Step 14 — Windows Client Network Settings
 
-![Step 14](screenshots/14-windows-network-settings.png)
+<img width="1690" height="982" alt="14-windows-network-settings" src="https://github.com/user-attachments/assets/696959d4-d0bf-4d71-bffb-507c3a493e88" />
+
 
 Changed the Windows PC's network settings so all traffic routes through pfSense instead of directly to the router.
 
@@ -244,7 +259,8 @@ Changed the Windows PC's network settings so all traffic routes through pfSense 
 
 ### ✅ Step 15 — Testing: Facebook Successfully Blocked
 
-![Step 15](screenshots/15-facebook-blocked-test.png)
+<img width="1277" height="1592" alt="15-facebook-blocked-test" src="https://github.com/user-attachments/assets/593bb359-65cc-47d6-86ce-e1184f631551" />
+
 
 Attempted to visit `facebook.com` — browser returned a timeout error confirming the block rule works.
 
@@ -287,12 +303,4 @@ ERR_CONNECTION_TIMED_OUT — www.facebook.com took too long to respond
 
 ---
 
-## 📜 Certification
-
-**Security Blue Team Level 1 (BTL1)**
-Domain: Network Security / Firewall Administration
-Completed: February 2026
-
----
-
-*Made by Kareem — BTL1 Cybersecurity Student*
+*Made by Kareem — Cybersecurity Student*
