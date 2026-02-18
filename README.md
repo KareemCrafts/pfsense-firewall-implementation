@@ -1,7 +1,6 @@
 # 🔒 pfSense Firewall Implementation
 
 ![pfSense](https://img.shields.io/badge/pfSense-2.8.1-blue?style=for-the-badge)
-![Course](https://img.shields.io/badge/BTL1-Security%20Blue%20Team-red?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
 > A complete hands-on implementation of pfSense as a network firewall — from installation to live traffic blocking — completed as part of the **Security Blue Team Level 1 (BTL1)** certification.
